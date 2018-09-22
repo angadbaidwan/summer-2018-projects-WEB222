@@ -1,0 +1,79 @@
+body {
+    background-color: #7FDBFF;
+}
+.main-container {
+    width: 960px;
+    margin: auto;
+    font-family: sans-serif;
+}
+.main-container .header {
+    border: solid #000000 1px;
+    background-color: #001f3f;
+    color: #ffffff;
+    padding: 0px 1em;
+}
+.main-container .left-nav {
+    border: solid black 1px;
+    float: left;
+    padding-right: 36px;
+    background-color: #0074D9;
+    color: #ffffff;
+    width: 96px;
+}
+.main-container .center-main {
+    float: left;
+    border: solid #000000 1px;
+    padding: 18px 36px;
+    width: 500px;
+    height: 463px;
+}
+.main-container #errors {
+    border: solid #000000 1px;
+    float: left;
+    width: 178px;
+    height: 500px;
+    color: blueviolet;
+    padding: 0px 36px;
+}
+.main-container .footer {
+    background-color: #001f3f;
+    border: solid #000000 1px;
+    color: #ffffff;
+    margin-top: 500px;
+    text-align: center;
+}
+/*Formatting Navigation Bar*/
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    padding: 5px 0px;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+a:active {
+    color: #ffffff;
+}
+/*Formatting Header & Logo*/
+header img {
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+header h1 {
+    position: relative;
+}
+/*Formatting Form Elements*/
+#signup input {
+    width: 200px;
+    margin: 0;
+    box-sizing: border-box;
+}
+#signup label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding-right: 5px;
+}

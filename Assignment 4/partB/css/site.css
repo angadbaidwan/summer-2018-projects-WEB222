@@ -1,0 +1,112 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Angadpreet Baidwan Student ID: 135421170 Date: 2018-07-16 
+* 
+********************************************************************************/
+
+/* Select all elements with class "main-container"*/
+.main-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* Select all <nav> elements that are a child 
+of an element with class "main-container"*/
+.main-container nav {
+    width: 30%;
+    float: left;
+}
+/* Select all elements with class "main" that are 
+a child of an element with class "main-container"*/
+.main-container .main {
+    width: 70%;
+    float: right;
+}
+/* Select all <header> elements that are a child 
+of an element with class "main-container"*/
+.main-container header {
+    padding: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+/* Select all <h1> elements that are a child 
+of a <header> element that is a child 
+of an element with class "main-container"*/
+.main-container header h1 {
+    width: 70%;
+    font-size: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+/* Select all <footer> elements that are a child 
+of an element with class "main-container"*/
+.main-container footer {
+    clear: both;
+    padding: 20px 10px;
+    background-color: #eeeeee;
+    border-top: 1px solid #eeeeee;
+    font-size: 13px;
+}
+/* Select element with id "logo"*/
+#logo {
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* Select all <img> elements that are a child 
+of an element with id "logo"*/
+#logo img {
+    width: 94px;
+    vertical-align: middle;
+}
+/* Select all <ul> elements that are a child
+of a <nav> element*/
+nav ul {
+    list-style-type: none;
+}
+/* Select all <a> elements that are a child of
+a <ul> element which itself is a child of a
+<nav> element */
+nav ul a {
+    display: block;
+    text-decoration: unset;
+    padding: 5px;
+}
+/* Select all <div> elements with class "province"*/
+div.province {
+    width: 30%;
+    float: left;
+    margin: 8px;
+    height: 310px;
+}
+/* Select all elements with class "description" that
+are a child of a <div> element with class "province"*/
+div.province .description {
+    max-height: 165px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* Select all <a> elements that are a 
+child of a <div> element with class "province"*/
+div.province a {
+    display: block;
+    text-align: center;
+    background-color: #555555;
+    color: #eeeeee;
+    text-decoration: unset;
+    padding: 5px;
+}
+/* Select all <img> elements with class "flag"*/
+img.flag {
+    width: 100%;
+}

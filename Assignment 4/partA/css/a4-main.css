@@ -1,0 +1,52 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Angadpreet Baidwan Student ID: 135421170 Date: 2018-07-16 
+* 
+********************************************************************************/
+body {
+    color: mediumslateblue;
+}
+nav, footer {
+    background-color: blueviolet;
+}
+header {
+    background-color: #ccccff;
+    font-weight: bold;
+}
+h1.app-title {
+    color: purple;
+    font-family: 'Pacifico', cursive;
+    margin: 0em;
+}
+div.main-table-container {
+    max-height: 36em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+table.main-table-top th {
+    background-color: #ffcccc;
+    text-align: left;
+    border: 1px solid;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+}
+table.main-table td {
+    border-style: none solid solid;
+    border-width: 1px;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffe6e6;
+}
+table.main-table p span {
+    font-style: italic;
+    font-weight: bold;
+}

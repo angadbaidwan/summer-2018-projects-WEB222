@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Baidwan</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="normalize1.css">
+    </head>
+    <body>
+        <script src="registration.js"></script>
+        <div class="main-container">
+            <header class="header">
+                <img src="weblogo.png" alt="Web Logo" height="60" width="60">
+                <h1>Web Form</h1>
+            </header>
+            <nav class="left-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                </ul>
+            </nav>
+            <div class="center-main">
+                <h2>Registration Form</h2>
+                <form name="signup" id="signup" method="POST" action="https://httpbin.org/post" onsubmit="return validateForm();">
+                    <label for="username">Username: </label><input type="text" name="username" id="username" required autofocus><br>
+                    <label for="password">Password: </label><input type="password" name="password" id="password" required><br>
+                    <label for="confirmPass">Confirm Password: </label><input type="password" name="confirmPass" id="confirmPass" required><br>
+                    <label for="fname">First Name: </label><input type="text" name="fname" id="fname" required><br>
+                    <label for="lname">Last Name: </label><input type="text" name="lname" id="lname" required><br>
+                    <label for="unitNum">Unit #: </label><input type="number" name="unitNum" id="unitNum" required><br>
+                    <label for="streetNum">Street #: </label><input type="number" name="streetNum" id="streetNum" required><br>
+                    <label for="streetName">Street Name: </label><input type="text" name="streetName" id="streetName" required><br>
+                    <label for="city">City: </label><input type="text" name="city" id="city" required><br>
+                    <label for="province">Province: </label><select name="province" form="signup" id="province">
+                        <option value="ON" selected>ON</option>
+                        <option value="QC">QC</option>
+                        <option value="NS">NS</option>
+                        <option value="NB">NB</option>
+                        <option value="MB">MB</option>
+                        <option value="BC">BC</option>
+                        <option value="PE">PE</option>
+                        <option value="SK">SK</option>
+                        <option value="AB">AB</option>
+                        <option value="NL">NL</option>                    
+                    </select><br>
+                    <label for="postal">Postal Code: </label><input type="text" name="postal" id="postal" required placeholder="C1A1A7" pattern="^([A-Za-z][0-9]){3}$"><br>
+                    <label for="phone">Phone Number: </label><input type="text" name="phone" id="phone" required placeholder="xxx-xxx-xxxx" pattern="^\d{3}-\d{3}-\d{4}$"><br>
+                    <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="youremail@example.com" required><br><br>
+                    <input type="hidden" name="lastName" id="lastName" value="Baidwan"> 
+                    <input type="hidden" name="studentId" id="studentId" value="135421170"> 
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear" onclick="clearErrors();">
+                </form>
+            </div>
+            <div id="errors"></div>
+            <footer class="footer">
+                <p>Welcome, this assignment is coded by Angad</p>
+            </footer>
+        </div>
+    </body>
+</html>
